@@ -8,6 +8,9 @@ gem 'font-awesome-rails', '4.3.0.0'
 # Use sqlite3 as the database for Active Record
 gem 'mysql2', '~> 0.3.18'
 
+# Use wice_grid used for search this is added by me
+gem "wice_grid", '3.6.0.pre4'
+
 # Used for login purpose
 gem 'devise', '3.4.1'
 
@@ -19,6 +22,8 @@ gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
+
+gem 'coffee-script-source', '1.8.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
